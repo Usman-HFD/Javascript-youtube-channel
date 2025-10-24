@@ -29,3 +29,27 @@ console.log(typeof undefined); // undefined
 console.log(typeof null); // object
 
 
+
+
+// 🔹 JavaScript Data Types (Short Summary)
+
+// number → for all numeric values (integer, float, NaN, Infinity).
+// bigint → for very large integers beyond number limit (end with n).
+// string → text inside quotes (' ' or " " or `).
+// boolean → true or false values.
+// null → intentional empty value (means nothing).
+// undefined → declared but no value assigned.
+// symbol → unique and immutable identifier (used as object keys).
+// All above are primitive data types (store single value).
+// typeof null → "object" (known JS bug).
+// typeof NaN → "number".
+// BigInt and Number can’t be mixed in operations.
+// Strings are immutable (cannot be changed directly).
+// Example:
+// let x = 10;             // number
+// let big = 123n;         // bigint
+// let name = "Usman";     // string
+// let isOk = true;        // boolean
+// let data = null;        // null
+// let a;                  // undefined
+// let id = Symbol("id");  // symbol
